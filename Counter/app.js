@@ -14,11 +14,11 @@ btns.forEach(function(item){
             count = 0;
         }
         if (count > 0) {
-            value.style.color = "DarkGreen";
+            value.style.color = "#50F283";
         } else if (count < 0) {
-            value.style.color = "DarkRed";
+            value.style.color = "#F25551";
         } else {
-            value.style.color = "Black";
+            value.style.color = "#241722";
         }
         value.textContent = count;
     })
